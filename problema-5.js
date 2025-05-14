@@ -7,8 +7,9 @@ const rl = readline.createInterface({
 
 rl.question('Digite uma string para inverter: ', (input) => {
   let invertida = '';
-
-  invertida = input.split('').reverse().join('')
+  for (let i = input.length - 1; i >= 0; i--) {
+    invertida += input[i];
+  }
 
   console.log('String invertida:', invertida);
   rl.close();
