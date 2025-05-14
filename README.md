@@ -12,7 +12,7 @@ Este repositório contém 5 problemas resolvidos em JavaScript.
 1. Clone o repositório:
 ```bash
 git clone https://github.com/mlgonzaga/teste_target_sistemas.git
-cd teste_tecnico
+cd teste_target_sistemas
 ```
 
 2. Verifique se o Node.js está instalado:
